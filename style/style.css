@@ -1,0 +1,189 @@
+*{
+ box-sizing:border-box ;
+}
+
+body{
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header h1{
+   text-align: center;
+   font-weight: bold;
+   color:white;
+
+}
+
+header{
+    background-color: rgb(34, 27, 27);
+}
+nav{
+        background-color: blanchedalmond;
+        overflow: hidden;
+        
+}
+nav a{
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+    padding: 20px 100px;
+    font-size: large;
+    display: block;
+    float: left;
+}
+/* hover for mouse selection */
+a:hover{ 
+   background-color: violet;
+}
+/* let's decorate section now */
+
+
+section h2{
+   
+    text-align: center;
+    }
+section h2 span{
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+section:nth-child(odd) {
+    background-color: rgb(48, 44, 44);
+}
+section:nth-child(even) {
+    background-color: rgb(66, 62, 62);
+}
+section{
+
+    height: 100vh;
+}
+
+/* section a{
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+    /* padding: 20px 100px; 
+    font-size: large;
+    display: block;
+    float: left;
+} */
+
+
+iframe{
+   
+    border:5px solid  blueviolet;
+   
+    border-radius: 20px;  
+
+}
+section h1 {
+    text-align: center;
+    
+}
+section h1 span{
+    background-image: linear-gradient(to right, red , yellow);
+    padding: 15px 30px;
+    border-radius: 10px;
+
+}
+.me span{
+  font-size: 2em;
+  color: antiquewhite;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 5px solid rgb(131, 224, 217);
+    border-radius: 20px;
+}
+.pad{
+    padding: 20px 250px;
+
+}
+div a{
+    text-decoration: none;
+    padding: 10px 120px;
+    color:crimson;
+    font-weight: bold;
+    background-color:rgb(233, 235, 116);
+    border: 5px solid burlywood;
+    border-radius: 20px;
+}
+span a{
+    padding: 10px;
+    
+}
+
+
+
+
+
+section h6{
+    margin: 0px 130px;
+    color: white;
+  
+}
+section h4{
+    margin: 0px 130px;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+footer{
+        background-color: blanchedalmond;
+        overflow: hidden;
+        
+    }
+footer a{
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+    padding: 20px 100px;
+    font-size: large;
+    display: block;
+    float: left;
+}
+.banner{
+    background-image: url(../Logo/header.gif.gif);
+    height:30vw;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-attachment: fixed;
+
+}
+div
+ .carousel-cell video{
+     max-width:1000px;
+     height: 700px;
+     border:5px solid  blueviolet;
+    border-radius: 20px;
+    
+ }
+  .carousel-cell {
+   
+    margin-right: 10px;
+   
+    border-radius: 5px;
+   
+  }
+  .tweet-color{
+      color: #1DA1F2;
+  }
+  .link-color{
+      color: #0077b5;
+  }
+
+  .you-color{
+    color: #FF0000;
+}
+  
+  
+
+  
+ 
+ 
